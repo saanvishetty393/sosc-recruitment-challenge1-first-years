@@ -1,20 +1,48 @@
+
 body {
-    background: #fff;
-    font-family: sans-serif;
+    background: #d54242;
+    font-family: arial;
     text-align: center;
     margin: 0;
     padding-top: 120px;
 }
 
 #name {
+    color : rgb(171, 25, 79);
+    font-family : arial;
     font-size: 48px;
     font-weight: bold;
+    text-shadow : 4px 4px 8px rgb(250, 126, 147)
 }
 
 #info-btn {
+    border-color : rgb(223, 17, 144);
+    background-color : rgb(205, 99, 145);
+    color : rgb(96, 2, 18);
+    font-family : arial;
     margin-top: 20px;
     padding: 10px 24px;
-    font-size: 16px;
+    font-size: 22px;
     border-radius: 6px;
     cursor: pointer;
+    box-shadow : 4px 4px 8px 4px maroon;
+}
+
+
+#age{
+border-radius : 4px;
+background-color :rgb(165, 71, 105);
+color :rgb(96, 2, 18);
+font-family : arial;
+font-size : 38px;
+box-shadow : 3px 3px 6px 4px rgb(101, 18, 18);
+cursor : pointer;
+padding-top : 10px;
+padding-bottom : 10px;
+padding-right : 10px;
+padding-left : 10px;
+margin-right : 20px;
+margin-left : 10px;
+height : 20px;
+width : 10px;
 }
